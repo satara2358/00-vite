@@ -4,16 +4,16 @@ import TwitterCard from './TwitterCard'
 export default function App(){
   return(
     <div className='App'>
-      <TwitterCard isFollowing userName={'satara2358'}>
+      <TwitterCard userName={'satara2358'}>
         Tecnopolis
       </TwitterCard>
-      <TwitterCard isFollowing={false} userName={'priscilla_ricart'}>
+      <TwitterCard  userName={'priscilla_ricart'}>
         Tesla
       </TwitterCard>
       <TwitterCard isFollowing >
         Ana Sofia Henao
       </TwitterCard>
-      <TwitterCard isFollowing userName={'claudiaperlwitz'}>
+      <TwitterCard  userName={'claudiaperlwitz'}>
         Claudia Perwitz
       </TwitterCard>
     </div>

@@ -34,9 +34,19 @@
   border-radius: 999px;
   padding: 6px 16px;
   font-weight: bold;
+  border: 1px solid #000;
+  transition: .3s ease background-color;
 }
 
 .article-buttonTw:hover{
   background-color: #09f;
-  transition: .3s ease background-color;
+  
+}
+
+.article-buttonTw.is-following{
+  border: 1px solid red;
+}
+
+.article-buttonTw.is-following:hover{
+  background: red;
 }
